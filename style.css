@@ -69,8 +69,22 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+
 }
 
+.mainText {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 24px;
+}
+
+.mainImages {
+    display: flex;
+    gap: 24px;
+}
 img {
     border: 5px solid #6F2C4F;
+    border-radius: 20px;
 }
