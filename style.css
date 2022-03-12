@@ -2,6 +2,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+
 }
 
 ul {
@@ -27,6 +28,49 @@ a {
     background-color: #6F2C4F;
     font-size: 24px;
     color: #F9FAF8;
-    padding: 12px;
+    padding: 24px 48px;
     font-weight: bold;
+}
+
+.intro {
+    background-color: #6F2C4F;
+    padding: 24px 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.introText {
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.headline {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: rebeccapurple;
+    color: white;
+    padding: 8px 24px;
+    width: fit-content;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    border: 5px solid #6F2C4F;
 }
