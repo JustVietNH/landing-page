@@ -69,8 +69,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-
+    flex-wrap: wrap;
 }
 
 .mainText {
@@ -83,8 +82,28 @@ button {
 .mainImages {
     display: flex;
     gap: 24px;
+    padding: 24px;
+    flex-wrap: wrap;
+
 }
 img {
     border: 5px solid #6F2C4F;
     border-radius: 20px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    padding: 30px 100px;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
 }
