@@ -2,7 +2,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-
+    flex-grow: 1;
 }
 
 ul {
@@ -142,7 +142,10 @@ img {
     
     background-color: #6F2C4F;
     color: white;
-    align-content: stretch;
+    padding: 24px;
+    margin: 0;
+    flex-grow: 1;
+    justify-content: center;
 }
 
 .header .main .footer {
